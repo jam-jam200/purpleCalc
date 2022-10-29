@@ -83,7 +83,7 @@ function Calculator() {
         <button name="/" onClick={() => updateCalc("/")}>
           /
         </button>
-        <button name="x" onClick={() => updateCalc("x")}>
+        <button name="*" onClick={() => updateCalc("*")}>
           x
         </button>
         <button onClick={handleReset} id="reset" className="span-two res-del">
